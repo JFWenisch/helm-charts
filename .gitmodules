@@ -1,0 +1,6 @@
+[submodule "src/pihole-helm"]
+	path = src/pihole-helm
+	url = https://github.com/JFWenisch/pihole-helm.git
+[submodule "src/alpine-tor-helm"]
+	path = src/alpine-tor-helm
+	url = https://github.com/JFWenisch/alpine-tor-helm.git
