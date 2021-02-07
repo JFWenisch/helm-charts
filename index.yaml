@@ -3,27 +3,33 @@ entries:
   alpine-tor:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-07T12:19:52.8229245+01:00"
-    description: Alpine based [Tor](https://www.torproject.org/) docker container
-      building [Tor](https://www.torproject.org/) from src. The container can be started
-      as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5
-      Port per default when running.
+    created: "2021-02-07T11:52:37.387921582Z"
+    description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: e6dcd650806aa9c0be3e5840acbc5cf8ed665ed6f89e79eb19b44282d6189f53
     name: alpine-tor
     type: application
     urls:
-    - https://jfwenisch.github.com/alpine-tor/alpine-tor-1.1.0.tgz
+    - https://jfwenisch.github.io/charts/alpine-tor/alpine-tor-1.1.0.tgz
     version: 1.1.0
+  - apiVersion: v2
+    appVersion: tor-0.4.4.6
+    created: "2021-02-07T11:52:37.386198454Z"
+    description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
+    digest: 3345fef5f4a1560eb8d413bdec1b24c0e74ff622840227a1e41bc76a14e6dd0b
+    name: alpine-tor
+    type: application
+    urls:
+    - https://jfwenisch.github.io/charts/alpine-tor/alpine-tor-1.0.0.tgz
+    version: 1.0.0
   pihole-jfwenisch:
   - apiVersion: v2
     appVersion: 5.1.2
-    created: "2021-02-07T12:19:52.8239243+01:00"
-    description: The Pi-hole® is a DNS sinkhole that protects your devices from unwanted
-      content, without installing any client-side software.
+    created: "2021-02-07T11:52:37.389380349Z"
+    description: The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
     digest: e961ac75a94832ee8ee5ab7062fcf04920a075d3e47f0a5d48dfb5935269a651
     name: pihole-jfwenisch
     type: application
     urls:
-    - https://jfwenisch.github.com/pihole/pihole-jfwenisch-0.1.0.tgz
+    - https://jfwenisch.github.io/charts/pihole/pihole-jfwenisch-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-07T12:19:52.8219371+01:00"
+generated: "2021-02-07T11:52:37.383500208Z"
