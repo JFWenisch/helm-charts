@@ -1,0 +1,35 @@
+image: alpine
+
+stages:
+  - build
+  - commit
+  - deploy
+
+index:
+  stage: build
+  image: alpine
+  variables:
+    HELM_EXPERIMENTAL_OCI: 1  
+  before_script:
+  - apk --no-cache add curl openssl bash
+  - curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+  script:
+    - helm repo index . --url  https://jfwenisch.github.io/charts/
+  artifacts:
+    paths:
+    - index.yaml
+    expire_in: 3 month
+
+commit:
+  stage: commit
+  before_script:
+    - apk update
+    - apk add --no-cache git
+  script:
+    - git checkout $CI_COMMIT_REF_NAME
+    - git pull origin $CI_COMMIT_REF_NAME
+    - git remote set-url origin "https://$GITHUBUSER:$GL_TOKEN@github.com/JFWenisch/charts.git"
+    - git config user.name Jean-Fabian Wenisch
+    - git config user.email info@jfwenisch.com
+    - git commit -m "[skip ci] Updating index" index.yaml
+    - git push origin master
