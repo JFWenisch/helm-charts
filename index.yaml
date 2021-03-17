@@ -3,7 +3,7 @@ entries:
   alpine-tor:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-02-07T11:52:37.387921582Z"
+    created: "2021-03-17T14:14:04.984670307Z"
     description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: e6dcd650806aa9c0be3e5840acbc5cf8ed665ed6f89e79eb19b44282d6189f53
     name: alpine-tor
@@ -13,7 +13,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: tor-0.4.4.6
-    created: "2021-02-07T11:52:37.386198454Z"
+    created: "2021-03-17T14:14:04.984123291Z"
     description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: 3345fef5f4a1560eb8d413bdec1b24c0e74ff622840227a1e41bc76a14e6dd0b
     name: alpine-tor
@@ -24,7 +24,7 @@ entries:
   pihole-jfwenisch:
   - apiVersion: v2
     appVersion: 5.1.2
-    created: "2021-02-07T11:52:37.389380349Z"
+    created: "2021-03-17T14:14:04.98498679Z"
     description: The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
     digest: e961ac75a94832ee8ee5ab7062fcf04920a075d3e47f0a5d48dfb5935269a651
     name: pihole-jfwenisch
@@ -32,4 +32,4 @@ entries:
     urls:
     - https://jfwenisch.github.io/charts/pihole/pihole-jfwenisch-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-07T11:52:37.383500208Z"
+generated: "2021-03-17T14:14:04.983444469Z"
