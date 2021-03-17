@@ -3,7 +3,7 @@ entries:
   alpine-tor:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-03-17T16:39:49.660947192Z"
+    created: "2021-03-17T17:09:53.566198431Z"
     description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: e6dcd650806aa9c0be3e5840acbc5cf8ed665ed6f89e79eb19b44282d6189f53
     name: alpine-tor
@@ -13,7 +13,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: tor-0.4.4.6
-    created: "2021-03-17T16:39:49.659083035Z"
+    created: "2021-03-17T17:09:53.565645262Z"
     description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: 3345fef5f4a1560eb8d413bdec1b24c0e74ff622840227a1e41bc76a14e6dd0b
     name: alpine-tor
@@ -24,7 +24,7 @@ entries:
   headless-viewerrobot:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-03-17T16:39:49.662659926Z"
+    created: "2021-03-17T17:09:53.566918831Z"
     description: A Helm chart for Kubernetes
     digest: 0502d98ec36e962705481a674e06c958993a80e245673530a1fc94ef951cd0ca
     name: headless-viewerrobot
@@ -34,7 +34,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2021-03-17T16:39:49.661941982Z"
+    created: "2021-03-17T17:09:53.566542937Z"
     description: A Helm chart for Kubernetes
     digest: 231be4dee71fa7caeaaeb22508e9b49edc12dc3c7aac6b63ab36388ee3dc1feb
     name: headless-viewerrobot
@@ -44,8 +44,18 @@ entries:
     version: 0.0.7
   headless-viewerrobot-api:
   - apiVersion: v2
+    appVersion: 0.0.7
+    created: "2021-03-17T17:09:53.568077997Z"
+    description: A Helm chart for Kubernetes
+    digest: e970bc3471c853bf06db25a3fa451ee25609f16a323c8a812bcf479095cded39
+    name: headless-viewerrobot-api
+    type: application
+    urls:
+    - https://jfwenisch.github.io/charts/headless-viewerrobot-api/headless-viewerrobot-api-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
     appVersion: 0.0.6
-    created: "2021-03-17T16:39:49.664286055Z"
+    created: "2021-03-17T17:09:53.567786567Z"
     description: A Helm chart for Kubernetes
     digest: d0d89fc39cb66d3b4b1a51d29045585780368a094b99a2f4ba7d38b78f79c0ab
     name: headless-viewerrobot-api
@@ -55,7 +65,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-03-17T16:39:49.66372153Z"
+    created: "2021-03-17T17:09:53.567503376Z"
     description: A Helm chart for Kubernetes
     digest: 89156d72eb9cef5a2251dd826fe70fb54189d8f6af42512f5169552151506629
     name: headless-viewerrobot-api
@@ -65,7 +75,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2021-03-17T16:39:49.663184396Z"
+    created: "2021-03-17T17:09:53.567203221Z"
     description: A Helm chart for Kubernetes
     digest: 4dc2d0c54adc7fa145b2ecb53d2b41f5d10a0de212f70e9575dff83eab7fb305
     name: headless-viewerrobot-api
@@ -76,7 +86,7 @@ entries:
   pihole-jfwenisch:
   - apiVersion: v2
     appVersion: 5.1.2
-    created: "2021-03-17T16:39:49.664960395Z"
+    created: "2021-03-17T17:09:53.568408745Z"
     description: The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
     digest: e961ac75a94832ee8ee5ab7062fcf04920a075d3e47f0a5d48dfb5935269a651
     name: pihole-jfwenisch
@@ -84,4 +94,4 @@ entries:
     urls:
     - https://jfwenisch.github.io/charts/pihole/pihole-jfwenisch-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-17T16:39:49.656895789Z"
+generated: "2021-03-17T17:09:53.564540256Z"
