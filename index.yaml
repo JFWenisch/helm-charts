@@ -3,7 +3,7 @@ entries:
   alpine-tor:
   - apiVersion: v2
     appVersion: latest
-    created: "2021-03-19T11:17:02.929585406Z"
+    created: "2021-03-19T11:54:18.268622109Z"
     description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: e6dcd650806aa9c0be3e5840acbc5cf8ed665ed6f89e79eb19b44282d6189f53
     name: alpine-tor
@@ -13,7 +13,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: tor-0.4.4.6
-    created: "2021-03-19T11:17:02.92901652Z"
+    created: "2021-03-19T11:54:18.268042562Z"
     description: Alpine based [Tor](https://www.torproject.org/) docker container building [Tor](https://www.torproject.org/) from src. The container can be started as middle(guard)- , bridge- , exit-relay or as proxy exposing only the Socks5 Port per default when running.
     digest: 3345fef5f4a1560eb8d413bdec1b24c0e74ff622840227a1e41bc76a14e6dd0b
     name: alpine-tor
@@ -23,18 +23,8 @@ entries:
     version: 1.0.0
   headless-viewerrobot:
   - apiVersion: v2
-    appVersion: latest
-    created: "2021-03-19T11:17:02.932564067Z"
-    description: A Helm chart for Kubernetes
-    digest: 0502d98ec36e962705481a674e06c958993a80e245673530a1fc94ef951cd0ca
-    name: headless-viewerrobot
-    type: application
-    urls:
-    - https://jfwenisch.github.io/charts/headless-viewerrobot/headless-viewerrobot-0.1.0.tgz
-    version: 0.1.0
-  - apiVersion: v2
     appVersion: 0.0.13
-    created: "2021-03-19T11:17:02.931045749Z"
+    created: "2021-03-19T11:54:18.270008264Z"
     description: A Helm chart for Kubernetes
     digest: d4978b1375dcea895204d38525815f9b6d34a65e47495c90849388f37c9ac7a8
     name: headless-viewerrobot
@@ -44,7 +34,7 @@ entries:
     version: 0.0.13
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2021-03-19T11:17:02.93066215Z"
+    created: "2021-03-19T11:54:18.269659062Z"
     description: A Helm chart for Kubernetes
     digest: d3377d092ee4adda71a4da87c229484efed82597c8be8fbaa399d1719392a164
     name: headless-viewerrobot
@@ -54,7 +44,7 @@ entries:
     version: 0.0.12
   - apiVersion: v2
     appVersion: 0.0.11
-    created: "2021-03-19T11:17:02.930296785Z"
+    created: "2021-03-19T11:54:18.269318699Z"
     description: A Helm chart for Kubernetes
     digest: 2738daa3e1d0021d432a061a3ff45a60b363d7dbb9be4ef80eb6055051f7b21b
     name: headless-viewerrobot
@@ -64,7 +54,7 @@ entries:
     version: 0.0.11
   - apiVersion: v2
     appVersion: 0.0.10
-    created: "2021-03-19T11:17:02.92993883Z"
+    created: "2021-03-19T11:54:18.268978063Z"
     description: A Helm chart for Kubernetes
     digest: b1a7b47b9177231f528a81fa842e8a2e911629e9f407dbe018e5620a4b19a3a3
     name: headless-viewerrobot
@@ -74,7 +64,7 @@ entries:
     version: 0.0.10
   - apiVersion: v2
     appVersion: 0.0.9
-    created: "2021-03-19T11:17:02.932163703Z"
+    created: "2021-03-19T11:54:18.271079158Z"
     description: A Helm chart for Kubernetes
     digest: c4bdc6e355011ce846fd1a5039bb5ef589bc3ca5cafa1a495559fec73ca1ebb6
     name: headless-viewerrobot
@@ -84,7 +74,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 0.0.8
-    created: "2021-03-19T11:17:02.931797852Z"
+    created: "2021-03-19T11:54:18.270722351Z"
     description: A Helm chart for Kubernetes
     digest: e8b67ae27518d3e6c31917290ee37b2d0d59b68ed014cae2d0679b9c1ba7e9af
     name: headless-viewerrobot
@@ -94,7 +84,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2021-03-19T11:17:02.931404325Z"
+    created: "2021-03-19T11:54:18.270366497Z"
     description: A Helm chart for Kubernetes
     digest: 231be4dee71fa7caeaaeb22508e9b49edc12dc3c7aac6b63ab36388ee3dc1feb
     name: headless-viewerrobot
@@ -105,7 +95,7 @@ entries:
   headless-viewerrobot-api:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-19T11:17:02.937586877Z"
+    created: "2021-03-19T11:54:18.275857868Z"
     description: A Helm chart for Kubernetes
     digest: c68dd1a9d504cbf48d7909a4a3ce80491db978a8ae0f815476f21406ac9c33df
     name: headless-viewerrobot-api
@@ -115,7 +105,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 0.0.17
-    created: "2021-03-19T11:17:02.935555648Z"
+    created: "2021-03-19T11:54:18.27407342Z"
     description: A Helm chart for Kubernetes
     digest: 2d38893ead45096d0df36787e7f70835f211d28cfb45e065e7874982fbc9c2ba
     name: headless-viewerrobot-api
@@ -125,7 +115,7 @@ entries:
     version: 0.0.17
   - apiVersion: v2
     appVersion: 0.0.16
-    created: "2021-03-19T11:17:02.935225024Z"
+    created: "2021-03-19T11:54:18.273759491Z"
     description: A Helm chart for Kubernetes
     digest: d1feee0cfb93e9d1481741f78e7e0d8bbcd5a36e535319aa3c02f5dfd01cece5
     name: headless-viewerrobot-api
@@ -135,7 +125,7 @@ entries:
     version: 0.0.16
   - apiVersion: v2
     appVersion: 0.0.15
-    created: "2021-03-19T11:17:02.934901556Z"
+    created: "2021-03-19T11:54:18.273075932Z"
     description: A Helm chart for Kubernetes
     digest: f3e140acfedc75ce6b4cb2fa2a239709997a094ac5e707dc4d9f6dbaa8e380a6
     name: headless-viewerrobot-api
@@ -145,7 +135,7 @@ entries:
     version: 0.0.15
   - apiVersion: v2
     appVersion: 0.0.14
-    created: "2021-03-19T11:17:02.934112375Z"
+    created: "2021-03-19T11:54:18.272644088Z"
     description: A Helm chart for Kubernetes
     digest: 1b3cf8922553fe475e66cc13493b12034b1717b49ff06c11e5cafefb25a85ca7
     name: headless-viewerrobot-api
@@ -155,7 +145,7 @@ entries:
     version: 0.0.14
   - apiVersion: v2
     appVersion: 0.0.13
-    created: "2021-03-19T11:17:02.933807498Z"
+    created: "2021-03-19T11:54:18.272347687Z"
     description: A Helm chart for Kubernetes
     digest: e0738c5d95296d8af535aa91c7e35c9f3ef4d609aa5fa3361ef86406c2d8b74d
     name: headless-viewerrobot-api
@@ -165,7 +155,7 @@ entries:
     version: 0.0.13
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2021-03-19T11:17:02.933494197Z"
+    created: "2021-03-19T11:54:18.272029387Z"
     description: A Helm chart for Kubernetes
     digest: 179e8a95654a53f0301e13927af1d9862e42104a909d7140e515f7d8c1486f89
     name: headless-viewerrobot-api
@@ -175,7 +165,7 @@ entries:
     version: 0.0.12
   - apiVersion: v2
     appVersion: 0.0.11
-    created: "2021-03-19T11:17:02.933188876Z"
+    created: "2021-03-19T11:54:18.271720887Z"
     description: A Helm chart for Kubernetes
     digest: 6b56e8a3f9c8cfdc37eec7df057eef8c000da6957f8dee4963f06551712623aa
     name: headless-viewerrobot-api
@@ -185,7 +175,7 @@ entries:
     version: 0.0.11
   - apiVersion: v2
     appVersion: 0.0.10
-    created: "2021-03-19T11:17:02.932881969Z"
+    created: "2021-03-19T11:54:18.271378696Z"
     description: A Helm chart for Kubernetes
     digest: cca4733d0ccdd9980aedefed50bd13f5e45a7a23e8858bd2a9ce308c9bb4d7dc
     name: headless-viewerrobot-api
@@ -195,7 +185,7 @@ entries:
     version: 0.0.10
   - apiVersion: v2
     appVersion: 0.0.9
-    created: "2021-03-19T11:17:02.937285274Z"
+    created: "2021-03-19T11:54:18.275504191Z"
     description: A Helm chart for Kubernetes
     digest: a61b60c26041abd62c072d69781953382f1594d3375dad8cc2318cb29b5ad18a
     name: headless-viewerrobot-api
@@ -205,7 +195,7 @@ entries:
     version: 0.0.9
   - apiVersion: v2
     appVersion: 0.0.8
-    created: "2021-03-19T11:17:02.93700289Z"
+    created: "2021-03-19T11:54:18.275224704Z"
     description: A Helm chart for Kubernetes
     digest: c70500fc8512af82cace2df2305d73c689222da1babc82900c2a4d948dba8653
     name: headless-viewerrobot-api
@@ -215,7 +205,7 @@ entries:
     version: 0.0.8
   - apiVersion: v2
     appVersion: 0.0.7
-    created: "2021-03-19T11:17:02.936715126Z"
+    created: "2021-03-19T11:54:18.274943789Z"
     description: A Helm chart for Kubernetes
     digest: e970bc3471c853bf06db25a3fa451ee25609f16a323c8a812bcf479095cded39
     name: headless-viewerrobot-api
@@ -225,7 +215,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: 0.0.6
-    created: "2021-03-19T11:17:02.936429834Z"
+    created: "2021-03-19T11:54:18.274648159Z"
     description: A Helm chart for Kubernetes
     digest: d0d89fc39cb66d3b4b1a51d29045585780368a094b99a2f4ba7d38b78f79c0ab
     name: headless-viewerrobot-api
@@ -235,7 +225,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2021-03-19T11:17:02.936144061Z"
+    created: "2021-03-19T11:54:18.274357794Z"
     description: A Helm chart for Kubernetes
     digest: 89156d72eb9cef5a2251dd826fe70fb54189d8f6af42512f5169552151506629
     name: headless-viewerrobot-api
@@ -243,20 +233,10 @@ entries:
     urls:
     - https://jfwenisch.github.io/charts/headless-viewerrobot-api/headless-viewerrobot-api-0.0.5.tgz
     version: 0.0.5
-  - apiVersion: v2
-    appVersion: 0.0.2
-    created: "2021-03-19T11:17:02.9358406Z"
-    description: A Helm chart for Kubernetes
-    digest: 4dc2d0c54adc7fa145b2ecb53d2b41f5d10a0de212f70e9575dff83eab7fb305
-    name: headless-viewerrobot-api
-    type: application
-    urls:
-    - https://jfwenisch.github.io/charts/headless-viewerrobot-api/headless-viewerrobot-api-0.0.2.tgz
-    version: 0.0.2
   pihole-jfwenisch:
   - apiVersion: v2
     appVersion: 5.1.2
-    created: "2021-03-19T11:17:02.937903189Z"
+    created: "2021-03-19T11:54:18.276153075Z"
     description: The Pi-hole® is a DNS sinkhole that protects your devices from unwanted content, without installing any client-side software.
     digest: e961ac75a94832ee8ee5ab7062fcf04920a075d3e47f0a5d48dfb5935269a651
     name: pihole-jfwenisch
@@ -264,4 +244,4 @@ entries:
     urls:
     - https://jfwenisch.github.io/charts/pihole/pihole-jfwenisch-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T11:17:02.928309982Z"
+generated: "2021-03-19T11:54:18.267368762Z"
